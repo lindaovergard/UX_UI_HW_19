@@ -21,7 +21,7 @@ body{
 
 }
 .navigation {
-        
+       
     margin-top: 50px;
 
     list-style: none;
@@ -30,6 +30,7 @@ body{
     
 }
 #nav{
+    
     display: inline-block;
     padding: 25px 25px 0 0;
     cursor: pointer;
@@ -123,6 +124,18 @@ video {
     background-position: center;
     background-size: 100%;
 }
+#skillsh3G:hover{
+    color: #ec0e8b;
+    cursor: pointer;
+}
+#skillsh3D:hover{
+    color: #ec0e8b;
+    cursor: pointer;
+}
+#skillsh3E:hover{
+    color: #ec0e8b;
+    cursor: pointer;
+}
 
 
 /* skills grid CSS
@@ -202,6 +215,41 @@ video {
     
     
 }
+.workGTG:hover {
+    color:#ec0e8b;
+    font-style: bold;
+}
+.workE:hover {
+    color:#ec0e8b;
+    font-style: bold;
+}
+.workHH:hover {
+    color:#ec0e8b;
+    font-style: bold;
+}
+.activeGTG{
+    display: none;
+    color: black;
+    font-size: 16px;
+    line-height: 22px;
+    padding:6% 6% 0 6%;
+}
+.activeEnergy{
+    display: none;
+    padding:6% 6% 0 6%;
+    color: black;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.activeHH{
+    display: none;
+    padding:6% 6% 0 6%;
+    color: black;
+    font-size: 16px;
+    line-height: 22px;
+}
+
 
 .projectGridArea{
     background-position: center;
@@ -233,12 +281,15 @@ video {
 }
 button {
     border: none;
-    background:none;
+    background:white;
     color: #ec0e8b;
     padding: 25px;
     cursor:pointer;
-    font-size: 18px;   
+    font-size: 18px;
+    margin-top: 100px;   
 }
+
+
 
 
 
@@ -354,6 +405,8 @@ h3{
     font-size: 18px;
     color:#ec0e8b;
     line-height: 30px;
+    list-style: none;
+    transition: all .5s ease;
 }
 .about{
     font-size: 16px;
